@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!-- nav -->
+       <nav class="navbar navbar-expand-lg px-5 about_nav">
+  <div class="container-fluid " >
+    <img src="./images/logo.png" alt="Logo" class="navbar-brand img-fluid rounded">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between w-100 align-item-center">
+
+    <ul class="navbar-nav mb-2 mb-lg-0 d-flex gap-5 mx-auto fs-5 custom-nav">
+  <li class="nav-item">
+    <a class="active"  href="./index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="" href="#">Service</a>
+  </li>
+ <li class="nav-item">
+  <a href="./contact.html">Contact</a>
+</li>
+
+  <li class="nav-item">
+    <a class="" href="#">About</a>
+  </li>
+</ul>
+    <button class="px-4 py-2 sign">Sign UP</button>
+  </div>
+</div>
+  </div>
+</nav>
+<!--  end of nav  -->
+<section class="about-section text-center">
+    <div class="container">
+      <h2 class="section-title mb-4">About <span class="highlight">Us</span></h2>
+      <p class="lead mx-auto" style="max-width: 750px;">
+        Back in 2020, as people rediscovered the joy of local flavors and home-style meals,
+        we launched <strong>[Pizza Hunt ]</strong> to bring something special to the table. 
+        Our passion for food and community led us to create a place where every dish tells a story.
+      </p>
+      <img src="./images/staff.jpg" alt="About Us" class="about-img mt-4 img-fluid">
+    </div>
+  </section>
+
+  <!-- Our Mission Section -->
+  <section class="mission-section bg-light text-center">
+    <div class="container">
+      <h2 class="section-title mb-4">Our <span class="highlight">Mission</span></h2>
+      <p class="lead mx-auto" style="max-width: 750px;">
+        Our mission is to bring people together with meals made from the heart. From sourcing the freshest ingredients
+        to offering a cozy dining atmosphere, we're here to make every moment — and every bite — memorable.
+      </p>
+
+      <div class="icon-wrapper">
+        <div class="icon-box" title="Fresh Ingredients">🥦</div>
+        <div class="icon-box" title="Fast Delivery">🚚</div>
+        <div class="icon-box" title="Seasonal Menus">📅</div>
+        <div class="icon-box" title="Friendly Staff">😊</div>
+      </div>
+
+    </div>
+  </section>
+<!-- Testimonels  -->
+<section class="testimonial-section bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-5">What Our Customers Say 🍕</h2>
+
+    <input type="radio" name="testimonial" id="t1" checked hidden>
+    <input type="radio" name="testimonial" id="t2" hidden>
+    <input type="radio" name="testimonial" id="t3" hidden>
+    <div class="testimonial-slider position-relative mx-auto" style="max-width: 600px;">
+      <!-- Slide Container -->
+      <div class="slides">
+        <div class="testimonial-card bg-white shadow p-4 rounded" id="slide1">
+          <p class="testimonial-message fs-5 fst-italic">"The Margherita pizza was to die for! 🍕🔥 Definitely coming back!"</p>
+          <p class="testimonial-author fw-bold mt-3">—Sara Hassan .</p>
+        </div>
+
+        <div class="testimonial-card bg-white shadow p-4 rounded" id="slide2">
+          <p class="testimonial-message fs-5 fst-italic">"Great crust, fresh toppings, and cozy vibes. Best pizza in town! 👌❤️"</p>
+          <p class="testimonial-author fw-bold mt-3">— Rawda .</p>
+        </div>
+
+        <div class="testimonial-card bg-white shadow p-4 rounded" id="slide3">
+          <p class="testimonial-message fs-5 fst-italic">"Super fast delivery and the pepperoni was so cheesy and delicious! 🧀🚴"</p>
+          <p class="testimonial-author fw-bold mt-3">— Samar Adnan</p>
+        </div>
+      </div>
+      <!-- Arrows -->
+      <div class="nav-arrows d-flex justify-content-between mt-4 px-3">
+        <label for="t3" class="arrow-btn">‹</label>
+        <label for="t2" class="arrow-btn">›</label>
+
+        <label for="t1" class="arrow-btn d-none" id="arrow1-prev">‹</label>
+        <label for="t3" class="arrow-btn d-none" id="arrow1-next">›</label>
+
+        <label for="t2" class="arrow-btn d-none" id="arrow2-prev">‹</label>
+        <label for="t1" class="arrow-btn d-none" id="arrow2-next">›</label>
+
+        <label for="t3" class="arrow-btn d-none" id="arrow3-prev">‹</label>
+        <label for="t2" class="arrow-btn d-none" id="arrow3-next">›</label>
+      </div>
+    </div>
+    <!-- Navigation  -->
+    <div class="dots mt-3">
+      <label for="t1" class="dot"></label>
+      <label for="t2" class="dot"></label>
+      <label for="t3" class="dot"></label>
+    </div>
+  </div>
+</section>
+
+<!-- Join us  -->
+<div class="join-box bg-white shadow rounded p-4 mt-5 mx-auto text-center" style="max-width: 600px;">
+  <h4 class=" fw-bold mb-2">🍕 Ready to Taste the Best Pizza in Ever?</h4>
+  <p class="fs-5 mb-0">Join us today and become part of our pizza-loving family! ❤️</p>
+</div>
+
+
+ <script src="./main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
