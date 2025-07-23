@@ -1,4 +1,4 @@
-<div class="container">
+
     <h1>🍕 Pizza Restaurant Website</h1>
 
     <p>This is a modern and responsive pizza restaurant website built using HTML, CSS, and JavaScript. It showcases the restaurant's menu, about section, and contact details with a user-friendly layout.</p>
@@ -26,4 +26,4 @@
         Click here to view the live website
       </a>
     </p>
-  </div>
+
